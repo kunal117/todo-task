@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #16162d;
+  /* background-color: #0b0a0a; */
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh;
+}
+.container {
+  max-width: 100%;
+  width: 400px;
+  /* background-color: black; */
+}
+
+.input {
+  background-color: #16162d;
+  font-size: regular;
+  border: none;
+  width: 100%;
+  height: 0.5rem;
+  display: block;
+  padding: 0.8rem 0.5rem;
+  color: #777777;
+  border-style: none;
+  outline: none;
+  /* outline-color: #3e1671; */
+  border: 2px solid #3e1671;
+  border-radius: 10px;
+}
+
+/* .input:focus {
+  outline-color: #3e1671;
+} */
+.display-flex {
+  display: flex;
+}
+.btn {
+  height: 34px;
+  width: 42px;
+  margin: 2px 10px 10px 10px;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #9e78cf;
+  color: #ffff;
+  font-size: 1.2rem;
+}
+
+.todos {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  list-style: none;
+  /* background-color: #15101c; */
+}
+
+.todos li {
+  display: inline-block;
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #15101c;
+  height: 45px;
+  width: 100%;
+  color: #9e78cf;
+  font-size: regular;
+  /* padding: 1rem 0.5rem; */
+  padding-top: 1rem;
+  padding-left: 1rem;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+}
+
+.ionicon {
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
+}
